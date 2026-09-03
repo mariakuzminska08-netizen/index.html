@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rockfall Racing Poland</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    
+    <script>
+        function otworzMenu() {
+        const menuBoczne = document.getElementById("menuBoczne");
+
+        if (menuBoczne.style.width === "250px") {
+            menuBoczne.style.width = "0";
+        } else {
+            menuBoczne.style.width = "250px";
+        }
+    }
+    </script>
+
+    <body>
+        <nav class="menu">
+            <a href="Rockfall Racing Poland.html">STRONA GŁÓWNA</a>
+            <a href="O nas.html">O NAS</a>
+            <a href="Drużyna.html">DRUŻYNA</a>
+        </nav>
+
+        <div class="menu2" onclick="otworzMenu()">
+            ☰
+        </div>
+
+        <nav id="menuBoczne" class="menu-boczne">
+            <a href="regulamin.html">REGULAMIN</a>
+        </nav>
+
+        <header class="banner">
+            <img src="Racing.jpg" width="200" height="200">
+
+            <div class="tekst">
+                <h1>Rockfall Racing Poland</h1>
+                <span>Drużyna kwalifikująca do konkursu STEM Racing Poland 2026/2027</span>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <h2>Patronaci</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/infostargardpl">Info Stargard</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="patronaci">
+            <img src="InfoStargard.jpg" width="100">
+        </footer>
+    </body>
+</html>

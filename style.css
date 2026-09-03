@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: Arial;
+    color: darkred;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+span {
+    color: black;
+    font-family: Arial;
+}
+
+li {
+    font-family: Arial;
+    color: darkred;
+}
+
+a {
+    color: burlywood;
+}
+
+.banner {
+    background-color: black;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.banner h1 {
+    color: darkred;
+    margin: 10px 0;
+}
+
+.banner span {
+    color: burlywood;
+}
+
+.banner img {
+    border-radius: 10px;
+}
+
+.patronaci {
+    background-color: black;
+    border-top: 10px; color: darkred;
+
+    padding: 20px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    text-align: center;
+}
+
+.patronaci a {
+    color: burlywood;
+}
+
+.menu {
+    background-color:  black;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    border-bottom: 2px solid darkred;
+}
+
+.menu a {
+    color: burlywood;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: darkred;
+}
+
+.menu2 {
+    font-size: 35px;
+    color: burlywood;
+    cursor: pointer;
+
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+    z-index: 1000;
+}
+
+.menu-boczne {
+    height: 100%;
+    width: 0;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    background-color: black;
+
+    overflow-x: hidden;
+
+    transition: 0.5s;
+
+    padding-top: 80px;
+
+    z-index: 999;
+}
+
+.menu-boczne a {
+    display: block;
+
+    color: burlywood;
+    text-decoration: none;
+
+    padding: 15px 30px;
+
+    font-size: 20px;
+}
+
+.menu-boczne a:hover {
+    background-color: darkred;
+    color: white;
+}
+.druzyna {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.druzyna h1 {
+    color: burlywood;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.czlonek {
+    width: 300px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    background-color: #111;
+}
+
+.czlonek h2 {
+    color: burlywood;
+}
+
+.czlonek p {
+    color: white;
+}
